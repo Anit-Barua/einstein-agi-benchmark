@@ -1,0 +1,330 @@
+[
+ {
+  "id": "P01",
+  "domain": "Physics",
+  "title": "Logical Contradiction",
+  "difficulty_label": "High",
+  "question_latex": "Michelson-Morley found NO difference in light speed despite Earth moving at ${\\sim}30$~km/s. Maxwell's equations predict $c = 1/\\sqrt{\\varepsilon_0\\mu_0}$ as an absolute constant. Derive the simplest assumption that resolves this contradiction.",
+  "key_insight_latex": "Simultaneity is not absolute; time itself is relative to the observer's motion."
+ },
+ {
+  "id": "P02",
+  "domain": "Physics",
+  "title": "Mathematical Derivation",
+  "difficulty_label": "High",
+  "question_latex": "Lorentz showed length contracts by $\\gamma = 1/\\sqrt{1-v^2/c^2}$ to preserve Maxwell's equations. Starting from the Lorentz transformation, derive the corresponding time transformation.",
+  "key_insight_latex": "Time dilation: $t' = \\gamma(t - vx/c^2)$."
+ },
+ {
+  "id": "P03",
+  "domain": "Physics",
+  "title": "Conceptual Synthesis",
+  "difficulty_label": "High",
+  "question_latex": "A train passenger and platform observer both measure the same light beam at $c$, yet their clocks run at different rates. Identify the assumption about time that must be abandoned.",
+  "key_insight_latex": "Relativity of simultaneity --- simultaneous in one frame is not in another."
+ },
+ {
+  "id": "P04",
+  "domain": "Physics",
+  "title": "Energy-Mass",
+  "difficulty_label": "Very High",
+  "question_latex": "A body at rest emits two equal light pulses in opposite directions (total energy $L$). Analyse the body's mass before and after emission using energy and momentum conservation.",
+  "key_insight_latex": "$E = mc^2$: mass and energy are equivalent."
+ },
+ {
+  "id": "P05",
+  "domain": "Physics",
+  "title": "Aether Elimination",
+  "difficulty_label": "High",
+  "question_latex": "Every aether-detection experiment has failed. Using Occam's Razor, propose the most parsimonious hypothesis consistent with Maxwell's equations.",
+  "key_insight_latex": "Postulate $c$ is constant for all inertial observers; discard the aether."
+ },
+ {
+  "id": "P06",
+  "domain": "Physics",
+  "title": "Velocity Addition",
+  "difficulty_label": "High",
+  "question_latex": "A moves at 0.6$c$ relative to B, and B moves at 0.6$c$ relative to C. Newtonian addition gives 1.2$c > c$. Derive the correct relativistic formula.",
+  "key_insight_latex": "$w = (u+v)/(1+uv/c^2)$ prevents superluminal speeds."
+ },
+ {
+  "id": "P07",
+  "domain": "Physics",
+  "title": "Equivalence Principle",
+  "difficulty_label": "High",
+  "question_latex": "You are in a sealed box feeling a force into the floor. Describe two entirely different physical situations that would produce an identical experience.",
+  "key_insight_latex": "Gravity and acceleration are locally indistinguishable --- the equivalence principle."
+ },
+ {
+  "id": "P08",
+  "domain": "Physics",
+  "title": "Gravitational Time Dilation",
+  "difficulty_label": "Very High",
+  "question_latex": "An accelerating rocket's trailing clock runs slower than its leading clock. Using the equivalence principle, derive the corresponding gravitational effect.",
+  "key_insight_latex": "Gravitational time dilation: $\\Delta t_{\\text{lower}} = \\Delta t_{\\text{upper}}\\sqrt{1 - 2GM/rc^2}$."
+ },
+ {
+  "id": "P09",
+  "domain": "Physics",
+  "title": "Photoelectric Effect",
+  "difficulty_label": "High",
+  "question_latex": "Light of frequency $f$ ejects electrons from a metal. Electron energy depends on $f$, not intensity. Explain this using the minimum number of new postulates.",
+  "key_insight_latex": "Light consists of discrete quanta (photons) each with energy $E = hf$."
+ },
+ {
+  "id": "P10",
+  "domain": "Physics",
+  "title": "Wave-Particle Duality",
+  "difficulty_label": "High",
+  "question_latex": "Electrons through a double slit produce an interference pattern, yet each electron arrives at a single point. Propose the simplest theoretical framework explaining both observations.",
+  "key_insight_latex": "de Broglie: $\\lambda = h/p$; matter has wave properties; probability amplitude determines detection."
+ },
+ {
+  "id": "C01",
+  "domain": "Chemistry",
+  "title": "Base Composition",
+  "difficulty_label": "High",
+  "question_latex": "Chemical analysis shows [A]$\\approx$[T] and [G]$\\approx$[C] universally, ratio $\\approx$1:1. What structural arrangement of the bases explains this universal constraint?",
+  "key_insight_latex": "Complementary base pairing via hydrogen bonds: A pairs with T, G pairs with C."
+ },
+ {
+  "id": "C02",
+  "domain": "Chemistry",
+  "title": "X-ray Pattern",
+  "difficulty_label": "Very High",
+  "question_latex": "X-ray diffraction of DNA shows: (1)~3.4~\\AA{} reflection, (2)~${\\sim}$34~\\AA{} reflection, (3)~X-shaped helical cross, (4)~${\\sim}$20~\\AA{} diameter. Propose the 3D structure consistent with all four.",
+  "key_insight_latex": "Double helix: 3.4~\\AA{} base stacking, 34~\\AA{} per turn (10 bases/turn), ${\\sim}$20~\\AA{} diameter."
+ },
+ {
+  "id": "C03",
+  "domain": "Chemistry",
+  "title": "Backbone Chemistry",
+  "difficulty_label": "High",
+  "question_latex": "DNA's phosphate backbone is negatively charged at physiological pH and readily accessible to solvent. Use this to determine which component is on the outside and which is inside the structure.",
+  "key_insight_latex": "Phosphate backbone on OUTSIDE (solvent-accessible); bases point INWARD."
+ },
+ {
+  "id": "C04",
+  "domain": "Chemistry",
+  "title": "DNA Replication",
+  "difficulty_label": "High",
+  "question_latex": "DNA has two complementary antiparallel strands. When it replicates, each daughter cell must receive an exact copy. Propose the replication mechanism and its prediction for isotope labelling.",
+  "key_insight_latex": "Semi-conservative replication: each strand serves as template; confirmed by Meselson-Stahl."
+ },
+ {
+  "id": "C05",
+  "domain": "Chemistry",
+  "title": "Protein Secondary Structure",
+  "difficulty_label": "High",
+  "question_latex": "Pauling showed the alpha-helix is stabilised by regular hydrogen bonds. Identify the specific N-H---O=C donor-acceptor geometry and the resulting geometry.",
+  "key_insight_latex": "Alpha-helix: N-H of residue $i$ hydrogen-bonds to C=O of residue $i+4$; 3.6 residues per turn."
+ },
+ {
+  "id": "C06",
+  "domain": "Chemistry",
+  "title": "RNA Synthesis",
+  "difficulty_label": "High",
+  "question_latex": "RNA polymerase synthesises RNA using a DNA template. State the direction it reads the template and the direction it synthesises RNA. Apply to template 3\\mbox{'}$\\to$ATCG$\\to$5\\mbox{'}.",
+  "key_insight_latex": "RNA polymerase reads template 3\\mbox{'}$\\to$5\\mbox{'}, synthesises RNA 5\\mbox{'}$\\to$3\\mbox{'}; template ATCG gives mRNA UAGC."
+ },
+ {
+  "id": "G01",
+  "domain": "Geology",
+  "title": "Continental Drift",
+  "difficulty_label": "High",
+  "question_latex": "Continents show mirror-image coastlines, matching fossils, and identical rocks across oceans. Wegener's mechanism of continents ploughing through oceanic crust is mechanically impossible. Propose a valid mechanism.",
+  "key_insight_latex": "Seafloor spreading: new crust at ridges, subduction at trenches; mantle convection provides driving force."
+ },
+ {
+  "id": "G02",
+  "domain": "Geology",
+  "title": "Magnetic Anomaly",
+  "difficulty_label": "Very High",
+  "question_latex": "Symmetric magnetic anomaly stripes are mapped on either side of mid-ocean ridges --- positive and negative alternating in mirror-image patterns. Explain their origin.",
+  "key_insight_latex": "Seafloor spreading with periodic geomagnetic reversals recorded in solidifying basalt."
+ },
+ {
+  "id": "G03",
+  "domain": "Geology",
+  "title": "Seismic Evidence",
+  "difficulty_label": "High",
+  "question_latex": "S-waves are blocked by a zone starting ${\\sim}$2900~km deep. P-waves continue but refract at this boundary. Determine what material property causes this.",
+  "key_insight_latex": "Liquid outer core (molten iron-nickel) blocks S-waves; solid inner core refracts P-waves."
+ },
+ {
+  "id": "G04",
+  "domain": "Geology",
+  "title": "Subduction Volcanism",
+  "difficulty_label": "High",
+  "question_latex": "Volcanoes form above subduction zones even though the subducting slab is cold. Explain why subduction causes melting.",
+  "key_insight_latex": "Water released from subducting slab lowers mantle melting point (flux melting); arc volcanism results."
+ },
+ {
+  "id": "G05",
+  "domain": "Geology",
+  "title": "Isostasy",
+  "difficulty_label": "High",
+  "question_latex": "Mountain ranges have deep roots extending into the mantle; ocean basins are comparatively shallow. Using crustal and mantle densities, derive the relationship.",
+  "key_insight_latex": "Isostasy (Airy): crust floats on denser mantle; root depth $\\delta = h\\,\\rho_c/(\\rho_m - \\rho_c)$."
+ },
+ {
+  "id": "E01",
+  "domain": "Economics",
+  "title": "Strategic Interaction",
+  "difficulty_label": "High",
+  "question_latex": "Two companies choose High or Low price independently. $\\pi(H,H)=(10,10)$; $\\pi(L,L)=(3,3)$; $\\pi(H,L)=(1,12)$; $\\pi(L,H)=(12,1)$. Find the stable equilibrium.",
+  "key_insight_latex": "Nash equilibrium: both choose Low (dominant strategy); Prisoner's Dilemma."
+ },
+ {
+  "id": "E02",
+  "domain": "Economics",
+  "title": "Mechanism Design",
+  "difficulty_label": "Very High",
+  "question_latex": "A government must allocate spectrum licences to highest-value companies. Companies know their own value but not others'. Design a mechanism where truth-telling is the optimal strategy.",
+  "key_insight_latex": "Vickrey (second-price) auction: winner pays second-highest bid; truth-telling is dominant strategy."
+ },
+ {
+  "id": "E03",
+  "domain": "Economics",
+  "title": "Comparative Advantage",
+  "difficulty_label": "High",
+  "question_latex": "Country A produces 1 car or 2 tonnes of wheat per worker-day. Country B produces 1 car or 3 tonnes. Show which country should specialise in which good and why trade benefits both.",
+  "key_insight_latex": "Comparative advantage: A specialises in cars, B in wheat; both gain from trade."
+ },
+ {
+  "id": "E04",
+  "domain": "Economics",
+  "title": "Public Goods",
+  "difficulty_label": "High",
+  "question_latex": "A lighthouse prevents shipwrecks for all passing ships. No ship can be excluded from its benefit; one ship using it does not reduce its value to others. Explain why private provision fails.",
+  "key_insight_latex": "Public good (non-excludable, non-rival): free-rider problem causes market undersupply."
+ },
+ {
+  "id": "E05",
+  "domain": "Economics",
+  "title": "Information Asymmetry",
+  "difficulty_label": "High",
+  "question_latex": "Used car sellers know quality; buyers do not. High-quality car owners want \\$10,000; low-quality owners accept \\$5,000. Buyers offer the expected value. What happens to the market?",
+  "key_insight_latex": "Adverse selection (Akerlof's Lemons): high-quality cars exit; market collapses."
+ },
+ {
+  "id": "B01",
+  "domain": "Biology",
+  "title": "Information Coding",
+  "difficulty_label": "High",
+  "question_latex": "DNA has 4 bases; proteins have 20 amino acids. A 1-base code gives only 4, a 2-base code 16. Determine the minimum code length and its prediction for synonymous mutations.",
+  "key_insight_latex": "Triplet code: $4^3 = 64$ codons for 20 amino acids; degeneracy at codon position~3."
+ },
+ {
+  "id": "B02",
+  "domain": "Biology",
+  "title": "Regulation Logic",
+  "difficulty_label": "Very High",
+  "question_latex": "Bacteria grow on glucose. Add lactose as sole carbon source: they initially struggle, then rapidly synthesise lactose-metabolising enzymes. Remove lactose: enzymes disappear. Propose the switching mechanism.",
+  "key_insight_latex": "Operon model: repressor blocks transcription; lactose binds repressor, releasing block."
+ },
+ {
+  "id": "B03",
+  "domain": "Biology",
+  "title": "Enzyme Kinetics",
+  "difficulty_label": "High",
+  "question_latex": "An enzyme catalyses E + S $\\rightleftharpoons$ ES $\\rightarrow$ E + P. At low [S], rate is linear; at high [S], rate plateaus. Derive the rate equation.",
+  "key_insight_latex": "Michaelis-Menten: $v = V_{\\max}[S]/(K_m+[S])$; saturation at $[S] \\gg K_m$."
+ },
+ {
+  "id": "B04",
+  "domain": "Biology",
+  "title": "Membrane Transport",
+  "difficulty_label": "High",
+  "question_latex": "Cell membranes are selectively permeable: water and gases cross freely but Na$^+$ and K$^+$ do not. Explain the structural basis and how ions are nonetheless transported.",
+  "key_insight_latex": "Hydrophobic lipid bilayer blocks ions; protein channels (passive) and pumps (active/ATP) provide selective transport."
+ },
+ {
+  "id": "B05",
+  "domain": "Biology",
+  "title": "Gene Regulation",
+  "difficulty_label": "Very High",
+  "question_latex": "Liver cells and neurons contain identical DNA but express entirely different protein sets. Explain how cells with identical genomes produce radically different phenotypes.",
+  "key_insight_latex": "Transcription factors bind promoter sequences; epigenetic marks (methylation, histone modification) stably maintain cell-type identity."
+ },
+ {
+  "id": "A01",
+  "domain": "Astronomy",
+  "title": "CMB Prediction",
+  "difficulty_label": "Very High",
+  "question_latex": "If the universe began in a hot dense state, it should produce a radiation afterglow as it expanded and cooled. Predict the current temperature and spectrum.",
+  "key_insight_latex": "CMB: ${\\sim}2.7$~K blackbody (microwave spectrum), redshifted from ${\\sim}3000$~K at recombination ($z \\approx 1100$)."
+ },
+ {
+  "id": "A02",
+  "domain": "Astronomy",
+  "title": "Galaxy Rotation",
+  "difficulty_label": "High",
+  "question_latex": "Galaxies show flat rotation curves: outer stars orbit at nearly the same speed as inner stars, contradicting Keplerian $v \\propto 1/\\sqrt{r}$. Propose the simplest explanation.",
+  "key_insight_latex": "Dark matter halo: non-luminous gravitating mass ($\\rho \\propto 1/r^2$) extends beyond visible disk."
+ },
+ {
+  "id": "A03",
+  "domain": "Astronomy",
+  "title": "Stellar Nucleosynthesis",
+  "difficulty_label": "High",
+  "question_latex": "Stars fuse hydrogen to helium, releasing energy. Iron has the highest binding energy per nucleon. Explain how elements heavier than iron form.",
+  "key_insight_latex": "Elements heavier than iron forged in core-collapse supernovae via rapid neutron capture (r-process)."
+ },
+ {
+  "id": "A04",
+  "domain": "Astronomy",
+  "title": "Hertzsprung-Russell Diagram",
+  "difficulty_label": "High",
+  "question_latex": "When stellar luminosity is plotted against surface temperature, most stars fall on a diagonal band. Explain the physical origin of this main sequence.",
+  "key_insight_latex": "Main sequence: stars in hydrostatic equilibrium burning hydrogen; $L \\propto M^4$."
+ },
+ {
+  "id": "A05",
+  "domain": "Astronomy",
+  "title": "Hubble Expansion",
+  "difficulty_label": "High",
+  "question_latex": "Galaxies show redshifts proportional to distance: more distant galaxies recede faster. Does this imply the Milky Way is at the centre? Explain what is actually expanding.",
+  "key_insight_latex": "Hubble's law $v = H_0 d$; no centre --- every galaxy sees others receding; space itself expands."
+ },
+ {
+  "id": "M01",
+  "domain": "Mathematics",
+  "title": "G\\\"{o}del Incompleteness",
+  "difficulty_label": "Very High",
+  "question_latex": "G\\\"{o}del showed any consistent formal system powerful enough for arithmetic contains true unprovable statements. What does this imply for Hilbert's programme to formalise all of mathematics?",
+  "key_insight_latex": "Hilbert's programme is impossible; truth $\\neq$ provability; mathematics cannot be fully mechanised."
+ },
+ {
+  "id": "M02",
+  "domain": "Mathematics",
+  "title": "Computability",
+  "difficulty_label": "High",
+  "question_latex": "Can an algorithm determine, for any mathematical statement, whether it is provable in finite time? Prove your answer using diagonalisation.",
+  "key_insight_latex": "Halting problem: assume universal decider, derive contradiction via self-reference; no such algorithm exists."
+ },
+ {
+  "id": "M03",
+  "domain": "Mathematics",
+  "title": "Cantor Diagonalisation",
+  "difficulty_label": "Very High",
+  "question_latex": "Assume all real numbers in $[0,1]$ can be listed: $r_1, r_2, r_3, \\ldots$ Construct a real number $d$ not in the list and explain the implication.",
+  "key_insight_latex": "Cantor diagonalisation: $d$ differs from $r_n$ at digit $n$; reals are uncountable."
+ },
+ {
+  "id": "M04",
+  "domain": "Mathematics",
+  "title": "G\\\"{o}del Numbering",
+  "difficulty_label": "High",
+  "question_latex": "G\\\"{o}del's proof requires formal statements about arithmetic to refer to other formal statements. Describe the encoding scheme that makes this self-reference possible.",
+  "key_insight_latex": "G\\\"{o}del numbering: assign unique integers to symbols, formulas, and proofs via prime factorisation; arithmetic becomes self-referential."
+ },
+ {
+  "id": "M05",
+  "domain": "Mathematics",
+  "title": "Second Incompleteness",
+  "difficulty_label": "Very High",
+  "question_latex": "G\\\"{o}del's second theorem addresses whether a formal system can prove its own consistency. State the result and its implication for Hilbert's consistency programme.",
+  "key_insight_latex": "A consistent system $S$ cannot prove $\\text{Con}(S)$; Hilbert's consistency programme is unachievable."
+ }
+]

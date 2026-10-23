@@ -1,0 +1,26 @@
+model,module,domain,question_id,category,difficulty,logical_coherence,novel_synthesis,mathematical_accuracy,extrapolation,total_score,sai
+EinsteinBench-Ref (EBR),multidomain,Geology,G01,Continental Drift,High,3,4,3,4,14,0.2274
+EinsteinBench-Ref (EBR),multidomain,Geology,G02,Magnetic Anomaly,Very High,3,4,3,4,14,0.2314
+EinsteinBench-Ref (EBR),multidomain,Geology,G03,Seismic Evidence,Medium,3,4,3,4,14,0.2031
+EinsteinBench-Ref (EBR),multidomain,Geology,G04,Subduction Volcanism,High,2,3,2,3,10,0.2238
+EinsteinBench-Ref (EBR),multidomain,Geology,G05,Isostasy,Medium,3,4,4,4,15,0.208
+EinsteinBench-Ref (EBR),multidomain,Economics,E01,Strategic Interaction,High,4,4,4,4,16,0.1465
+EinsteinBench-Ref (EBR),multidomain,Economics,E02,Mechanism Design,Very High,3,4,3,4,14,0.2724
+EinsteinBench-Ref (EBR),multidomain,Economics,E03,Comparative Advantage,Medium,3,4,3,4,14,0.4151
+EinsteinBench-Ref (EBR),multidomain,Economics,E04,Public Goods,High,3,4,3,4,14,0.3274
+EinsteinBench-Ref (EBR),multidomain,Economics,E05,Information Asymmetry,High,2,3,2,3,10,0.2495
+EinsteinBench-Ref (EBR),multidomain,Biology,B01,Information Coding,High,4,4,4,4,16,0.3256
+EinsteinBench-Ref (EBR),multidomain,Biology,B02,Regulation Logic,Very High,3,4,3,4,14,0.334
+EinsteinBench-Ref (EBR),multidomain,Biology,B03,Enzyme Kinetics,High,4,4,5,5,18,0.4116
+EinsteinBench-Ref (EBR),multidomain,Biology,B04,Membrane Transport,Medium,2,3,2,3,10,0.2859
+EinsteinBench-Ref (EBR),multidomain,Biology,B05,Gene Regulation,Very High,2,3,2,3,10,0.3304
+EinsteinBench-Ref (EBR),multidomain,Astronomy,A01,CMB Prediction,Very High,5,4,5,4,18,0.1622
+EinsteinBench-Ref (EBR),multidomain,Astronomy,A02,Galaxy Rotation,High,4,4,4,4,16,0.2673
+EinsteinBench-Ref (EBR),multidomain,Astronomy,A03,Stellar Nucleosynthesis,High,2,3,2,3,10,0.3709
+EinsteinBench-Ref (EBR),multidomain,Astronomy,A04,Hertzsprung-Russell Diagram,Medium,2,4,3,3,12,0.3063
+EinsteinBench-Ref (EBR),multidomain,Astronomy,A05,Hubble Expansion,High,5,5,5,5,20,0.3408
+EinsteinBench-Ref (EBR),multidomain,Mathematics,M01,Incompleteness,Very High,2,3,2,3,10,0.2757
+EinsteinBench-Ref (EBR),multidomain,Mathematics,M02,Computability,High,3,3,2,3,11,0.1395
+EinsteinBench-Ref (EBR),multidomain,Mathematics,M03,Cantor Diagonalisation,Very High,3,4,3,4,14,0.3432
+EinsteinBench-Ref (EBR),multidomain,Mathematics,M04,Gödel Numbering,High,3,4,3,4,14,0.248
+EinsteinBench-Ref (EBR),multidomain,Mathematics,M05,Second Incompleteness,Very High,2,3,2,3,10,0.2962

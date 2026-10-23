@@ -1,0 +1,199 @@
+{
+  "model_name": "EinsteinBench-Ref",
+  "model_short": "EBR",
+  "model_version": "1.0",
+  "model_id": "EinsteinBench-Ref (EBR)",
+  "type": "Adaptive Scoring Oracle",
+  "description": "SDRO is the reference scoring system for the Einstein AGI Benchmark. It evaluates open-weight language models on their ability to derive scientific discoveries from pre-cutoff knowledge, using a four-dimension rubric (Logical Coherence, Novel Synthesis, Mathematical Accuracy, Extrapolation) scored 0-5 per dimension (max 20 per question).",
+  "benchmark_version": "9.0.0",
+  "global_seed": 20250106,
+  "scoring_rubric": {
+    "dimensions": [
+      "logical_coherence",
+      "novel_synthesis",
+      "mathematical_accuracy",
+      "extrapolation"
+    ],
+    "max_per_dimension": 5,
+    "max_per_question": 20,
+    "agi_threshold_per_dim": 4,
+    "agi_critical_dims": [
+      "novel_synthesis",
+      "extrapolation"
+    ]
+  },
+  "question_bank": {
+    "domains": [
+      "Physics",
+      "Chemistry",
+      "Geology",
+      "Economics",
+      "Biology",
+      "Astronomy",
+      "Mathematics"
+    ],
+    "n_core": 41,
+    "n_contamination": 5,
+    "n_adversarial": 4,
+    "compare_subset_size": 15
+  },
+  "composite_score": {
+    "name": "Calibrated AGI Index (CAGI)",
+    "range": "0-100",
+    "weights": {
+      "performance": 0.3,
+      "consistency": 0.2,
+      "calibration": 0.15,
+      "contamination_robustness": 0.25,
+      "reasoning_depth": 0.1
+    }
+  },
+  "irt_model": {
+    "type": "2-parameter logistic (2PL)",
+    "scoring": "continuous fractional (score/max_score)",
+    "theta_range": [
+      -4.0,
+      4.0
+    ],
+    "theta_0_meaning": "average human expert performance"
+  },
+  "provider": "demo",
+  "hardware": "GPU_T4_X2 (2x T4, 32 GB VRAM)",
+  "performance_summary": [
+    {
+      "model": "EinsteinBench-Ref (EBR)",
+      "avg_total": 14.3171,
+      "irt_theta": 1.4513,
+      "consistency_score": 0.8964,
+      "calibration_score": 0.643,
+      "contamination_robustness": 0.7,
+      "depth_score": 4.3034,
+      "cagi_score": 70.851,
+      "comp_perf": 0.7159,
+      "comp_consistency": 0.8964,
+      "comp_calibration": 0.643,
+      "comp_contamination": 0.7,
+      "comp_depth": 0.4303
+    },
+    {
+      "model": "Qwen2.5-7B",
+      "avg_total": 15.0,
+      "irt_theta": 1.6015,
+      "consistency_score": 0.9293,
+      "calibration_score": 0.6404,
+      "contamination_robustness": 0.4875,
+      "depth_score": 0.01,
+      "cagi_score": 62.889,
+      "comp_perf": 0.75,
+      "comp_consistency": 0.9293,
+      "comp_calibration": 0.6404,
+      "comp_contamination": 0.4875,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "Qwen2.5-3B",
+      "avg_total": 15.3333,
+      "irt_theta": 1.6671,
+      "consistency_score": 0.9301,
+      "calibration_score": 0.5792,
+      "contamination_robustness": 0.4983,
+      "depth_score": 0.01,
+      "cagi_score": 62.76,
+      "comp_perf": 0.7667,
+      "comp_consistency": 0.9301,
+      "comp_calibration": 0.5792,
+      "comp_contamination": 0.4983,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "SmolLM2-1.7B",
+      "avg_total": 14.7333,
+      "irt_theta": 1.5508,
+      "consistency_score": 0.9233,
+      "calibration_score": 0.5383,
+      "contamination_robustness": 0.4788,
+      "depth_score": 0.01,
+      "cagi_score": 60.621,
+      "comp_perf": 0.7367,
+      "comp_consistency": 0.9233,
+      "comp_calibration": 0.5383,
+      "comp_contamination": 0.4788,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "Qwen2.5-1.5B",
+      "avg_total": 14.4667,
+      "irt_theta": 1.5017,
+      "consistency_score": 0.9377,
+      "calibration_score": 0.5292,
+      "contamination_robustness": 0.4702,
+      "depth_score": 0.01,
+      "cagi_score": 60.157,
+      "comp_perf": 0.7233,
+      "comp_consistency": 0.9377,
+      "comp_calibration": 0.5292,
+      "comp_contamination": 0.4702,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "TinyLlama-1.1B",
+      "avg_total": 4.4,
+      "irt_theta": -0.1352,
+      "consistency_score": 0.9586,
+      "calibration_score": 0.5069,
+      "contamination_robustness": 0.35,
+      "depth_score": 0.01,
+      "cagi_score": 42.135,
+      "comp_perf": 0.22,
+      "comp_consistency": 0.9586,
+      "comp_calibration": 0.5069,
+      "comp_contamination": 0.35,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "Qwen2.5-0.5B",
+      "avg_total": 5.2,
+      "irt_theta": 0.0235,
+      "consistency_score": 0.9368,
+      "calibration_score": 0.45,
+      "contamination_robustness": 0.35,
+      "depth_score": 0.01,
+      "cagi_score": 42.045,
+      "comp_perf": 0.26,
+      "comp_consistency": 0.9368,
+      "comp_calibration": 0.45,
+      "comp_contamination": 0.35,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "SmolLM2-360M",
+      "avg_total": 0.0,
+      "irt_theta": -3.5097,
+      "consistency_score": 1.0,
+      "calibration_score": 0.4263,
+      "contamination_robustness": 0.35,
+      "depth_score": 0.01,
+      "cagi_score": 35.155,
+      "comp_perf": 0.0,
+      "comp_consistency": 1.0,
+      "comp_calibration": 0.4263,
+      "comp_contamination": 0.35,
+      "comp_depth": 0.001
+    },
+    {
+      "model": "SmolLM2-135M",
+      "avg_total": 0.0667,
+      "irt_theta": -3.0216,
+      "consistency_score": 0.9871,
+      "calibration_score": 0.3556,
+      "contamination_robustness": 0.35,
+      "depth_score": 0.01,
+      "cagi_score": 33.935,
+      "comp_perf": 0.0033,
+      "comp_consistency": 0.9871,
+      "comp_calibration": 0.3556,
+      "comp_contamination": 0.35,
+      "comp_depth": 0.001
+    }
+  ]
+}

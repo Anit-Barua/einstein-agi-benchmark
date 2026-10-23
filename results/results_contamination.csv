@@ -1,0 +1,6 @@
+model,module,question_id,domain,difficulty,logical_coherence,novel_synthesis,mathematical_accuracy,extrapolation,total_score,sai
+EinsteinBench-Ref (EBR),contamination,X01,Fictional-Physics,High,4,3,3,3,13,0.0365
+EinsteinBench-Ref (EBR),contamination,X02,Fictional-Chemistry,Medium,2,2,2,2,8,0.0087
+EinsteinBench-Ref (EBR),contamination,X03,Fictional-Geology,High,2,3,2,3,10,0.0091
+EinsteinBench-Ref (EBR),contamination,X04,Fictional-Economics,High,2,3,2,3,10,0.035
+EinsteinBench-Ref (EBR),contamination,X05,Fictional-Mathematics,Very High,2,2,1,2,7,0.0075

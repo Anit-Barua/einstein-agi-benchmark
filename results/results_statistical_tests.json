@@ -1,0 +1,51 @@
+{
+  "kruskal_wallis": {
+    "H": 107.534,
+    "p": 0.0,
+    "eta_sq": 0.9723
+  },
+  "regression": {
+    "model": "OLS_HC3_robust",
+    "log_params_coef": 3.3686,
+    "log_params_p": 0.0,
+    "difficulty_coef": -0.1287,
+    "difficulty_p": 0.73309,
+    "R_squared": 0.7536
+  },
+  "spearman": {
+    "rho_params_theta": 0.9286,
+    "p_params_theta": 0.00086,
+    "ci_theta": [
+      0.5949,
+      1.0
+    ],
+    "rho_params_cagi": 1.0,
+    "p_params_cagi": 0.0,
+    "ci_cagi": [
+      1.0,
+      1.0
+    ]
+  },
+  "calibration": {
+    "ECE": 0.357,
+    "Brier": 0.1329,
+    "HL_chi2": 4.027,
+    "HL_p": 0.2586
+  },
+  "krippendorff_alpha": {
+    "alpha": 0.6086,
+    "n_raters": 3,
+    "n_items": 4
+  },
+  "adversarial_roc": {
+    "AUC": NaN,
+    "detection_rate": 1.0
+  },
+  "power_analysis": {
+    "n_per_group": 15,
+    "n_groups": 8,
+    "achieved_power": 1.0,
+    "min_detectable_d": 0.36,
+    "alpha": 0.05
+  }
+}

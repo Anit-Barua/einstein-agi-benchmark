@@ -1,0 +1,88 @@
+== Oracle (EBR), n = 41
+mean 14.32  SD 3.07
+             count   mean   std
+domain                         
+Astronomy        5  15.20  4.15
+Biology          5  13.60  3.58
+Chemistry        6  13.17  2.48
+Economics        5  13.60  2.19
+Geology          5  13.40  1.95
+Mathematics      5  11.80  2.05
+Physics         10  17.00  2.36
+{'logical_coherence': 3.24, 'novel_synthesis': 3.8, 'mathematical_accuracy': 3.41, 'extrapolation': 3.85}
+items scoring exactly 10: 9
+
+== What drives the score (EBR)
+Spearman(depth_depth_score, total) = +0.90  p = 6.23e-16
+Spearman(sai, total) = -0.28  p = 0.0746
+Spearman(entropy, total) = -0.15  p = 0.346
+Spearman(depth_word_count, total) = +0.02  p = 0.908
+items with SAI >= 1/6 (sai5 saturated): 36 of 41
+bootstrap 95% CI for rho(depth_depth_score) = [0.78 0.97]
+bootstrap 95% CI for rho(sai) = [-0.55  0.03]
+standardised OLS: beta_SAI=0.80 beta_depth=2.78 R2=0.653
+
+== Equation check: recompute totals from logged signals (Eqs. 1-6)
+exact matches: 34/41  MAE 0.195  Spearman 0.998
+SAI fixed at 5: Spearman vs logged 0.969, mean shift +0.39
+SAI set to 0: Spearman vs logged 0.939, mean shift -4.44
+depth fixed at median: Spearman vs logged 0.038, totals range 9-14
+
+== Contamination probes
+fictional mean 9.60 SD 2.30; core EBR mean 14.32; relative drop 32.9%
+one-sided Mann-Whitney: MannwhitneyuResult(statistic=np.float64(185.0), pvalue=np.float64(0.0016178078984392843))
+
+== Stored statistical tests (results_statistical_tests.json)
+{
+ "kruskal_wallis": {
+  "H": 107.534,
+  "p": 0.0,
+  "eta_sq": 0.9723
+ },
+ "regression": {
+  "model": "OLS_HC3_robust",
+  "log_params_coef": 3.3686,
+  "log_params_p": 0.0,
+  "difficulty_coef": -0.1287,
+  "difficulty_p": 0.73309,
+  "R_squared": 0.7536
+ },
+ "spearman": {
+  "rho_params_theta": 0.9286,
+  "p_params_theta": 0.00086,
+  "ci_theta": [
+   0.5949,
+   1.0
+  ],
+  "rho_params_cagi": 1.0,
+  "p_params_cagi": 0.0,
+  "ci_cagi": [
+   1.0,
+   1.0
+  ]
+ },
+ "calibration": {
+  "ECE": 0.357,
+  "Brier": 0.1329,
+  "HL_chi2": 4.027,
+  "HL_p": 0.2586
+ },
+ "krippendorff_alpha": {
+  "alpha": 0.6086,
+  "n_raters": 3,
+  "n_items": 4
+ },
+ "adversarial_roc": {
+  "AUC": NaN,
+  "detection_rate": 1.0
+ },
+ "power_analysis": {
+  "n_per_group": 15,
+  "n_groups": 8,
+  "achieved_power": 1.0,
+  "min_detectable_d": 0.36,
+  "alpha": 0.05
+ }
+}
+
+SAI >= 1/6 among simulated local-model responses: 7 of 120

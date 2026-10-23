@@ -1,0 +1,8 @@
+model,module,question_id,domain,difficulty,confidence,actual_score,correct,total_score,logical_coherence,novel_synthesis,mathematical_accuracy,extrapolation
+EinsteinBench-Ref (EBR),calibration,P01,Physics,High,0.5980000000000001,0.95,1,19,5,4,5,5
+EinsteinBench-Ref (EBR),calibration,P02,Physics,High,0.7330000000000001,0.7,1,14,4,3,4,3
+EinsteinBench-Ref (EBR),calibration,P03,Physics,Medium,0.7150000000000001,0.95,1,19,5,4,5,5
+EinsteinBench-Ref (EBR),calibration,C01,Chemistry,Medium,0.7240000000000001,0.75,1,15,3,4,4,4
+EinsteinBench-Ref (EBR),calibration,C02,Chemistry,High,0.5800000000000001,0.7,1,14,3,4,3,4
+EinsteinBench-Ref (EBR),calibration,G01,Geology,High,0.535,0.7,1,14,3,4,3,4
+EinsteinBench-Ref (EBR),calibration,G02,Geology,Very High,0.6160000000000001,0.7,1,14,3,4,3,4

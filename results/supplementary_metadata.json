@@ -1,0 +1,109 @@
+{
+  "benchmark_version": "9.0.0",
+  "run_timestamp": "2026-06-10T05:12:38.566589Z",
+  "global_random_seed": 20250106,
+  "n_bootstrap": 10000,
+  "hardware": {
+    "accelerator": "GPU_T4_X2",
+    "n_gpu": 2,
+    "vram_per_gpu_gb": 16,
+    "total_vram_gb": 32,
+    "python_version": "3.12.12"
+  },
+  "software": {
+    "numpy": "2.0.2",
+    "pandas": "2.3.3",
+    "matplotlib": "3.10.0",
+    "pingouin": "0.6.1"
+  },
+  "models": [
+    {
+      "name": "SmolLM2-135M",
+      "hf_id": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "params_B": 0.135,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "SmolLM2-360M",
+      "hf_id": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "params_B": 0.36,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "SmolLM2-1.7B",
+      "hf_id": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "params_B": 1.7,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "TinyLlama-1.1B",
+      "hf_id": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+      "params_B": 1.1,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "Qwen2.5-0.5B",
+      "hf_id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "params_B": 0.5,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "Qwen2.5-1.5B",
+      "hf_id": "Qwen/Qwen2.5-1.5B-Instruct",
+      "params_B": 1.5,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "Qwen2.5-3B",
+      "hf_id": "Qwen/Qwen2.5-3B-Instruct",
+      "params_B": 3.0,
+      "quantisation": "fp16"
+    },
+    {
+      "name": "Qwen2.5-7B",
+      "hf_id": "Qwen/Qwen2.5-7B-Instruct",
+      "params_B": 7.0,
+      "quantisation": "4-bit"
+    }
+  ],
+  "question_bank": {
+    "domains": [
+      "Physics",
+      "Chemistry",
+      "Geology",
+      "Economics",
+      "Biology",
+      "Astronomy",
+      "Mathematics"
+    ],
+    "total_core": 41,
+    "contamination": 5,
+    "adversarial": 4
+  },
+  "statistical_tests": [
+    "kruskal_wallis",
+    "regression",
+    "spearman",
+    "calibration",
+    "krippendorff_alpha",
+    "adversarial_roc",
+    "power_analysis"
+  ],
+  "bug_fixes_v9": [
+    "B1:local_depth_gate_removed",
+    "B2:fictional_response_bank",
+    "B3:deterministic_adversarial",
+    "B4:krippendorff_direct",
+    "B5:ols_fallback",
+    "B6:dunn_column_fix"
+  ],
+  "prx_additions": [
+    "P1:SAI_tfidf_jaccard",
+    "P2:response_entropy",
+    "P3:power_analysis",
+    "P4:horizontal_1x4_panel",
+    "P5:latex_table_I",
+    "P6:correlation_matrix",
+    "P7:power_agi_gap_figure"
+  ]
+}

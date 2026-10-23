@@ -1,0 +1,121 @@
+model,family,params_B,model_type,domain,question_id,category,difficulty,logical_coherence,novel_synthesis,mathematical_accuracy,extrapolation,total_score,comment,load_success,run_type,depth_step_count,depth_formula_count,depth_self_corrections,depth_word_count,depth_depth_score,depth_used_fallback,sai,entropy
+SmolLM2-135M,SmolLM,0.135,local,Physics,P01,Logical Contradiction,High,0,1,0,0,1,SAI=0.052 steps=0 forms=0 H=5.4 wc=53 → 1/20,True,core,0,0,0,1,0.01,False,0.052,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Physics,P02,Mathematical Derivation,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.2439
+SmolLM2-135M,SmolLM,0.135,local,Physics,P03,Conceptual Synthesis,Medium,0,0,0,0,0,SAI=0.025 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0246,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Physics,P04,Energy-Mass,Very High,0,0,0,0,0,SAI=0.015 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0155,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Physics,P05,Aether Elimination,Medium,0,0,0,0,0,SAI=0.089 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0887,4.2439
+SmolLM2-135M,SmolLM,0.135,local,Chemistry,C01,Base Composition,Medium,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.6817
+SmolLM2-135M,SmolLM,0.135,local,Chemistry,C02,X-ray Pattern,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Chemistry,C03,Backbone Chemistry,Medium,0,0,0,0,0,SAI=0.019 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0191,4.6817
+SmolLM2-135M,SmolLM,0.135,local,Geology,G01,Continental Drift,High,0,0,0,0,0,SAI=0.018 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0178,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Geology,G02,Magnetic Anomaly,Very High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Biology,B01,Information Coding,High,0,0,0,0,0,SAI=0.015 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0152,4.6817
+SmolLM2-135M,SmolLM,0.135,local,Biology,B02,Regulation Logic,Very High,0,0,0,0,0,SAI=0.035 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0348,4.6817
+SmolLM2-135M,SmolLM,0.135,local,Economics,E01,Strategic Interaction,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0,5.3579
+SmolLM2-135M,SmolLM,0.135,local,Mathematics,M01,Incompleteness,Very High,0,0,0,0,0,SAI=0.029 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0294,4.2439
+SmolLM2-135M,SmolLM,0.135,local,Astronomy,A01,CMB Prediction,Very High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Physics,P01,Logical Contradiction,High,0,0,0,0,0,SAI=0.017 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0171,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Physics,P02,Mathematical Derivation,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.2439
+SmolLM2-360M,SmolLM,0.36,local,Physics,P03,Conceptual Synthesis,Medium,0,0,0,0,0,SAI=0.046 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0456,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Physics,P04,Energy-Mass,Very High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.2439
+SmolLM2-360M,SmolLM,0.36,local,Physics,P05,Aether Elimination,Medium,0,0,0,0,0,SAI=0.058 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0584,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Chemistry,C01,Base Composition,Medium,0,0,0,0,0,SAI=0.005 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.0054,5.3579
+SmolLM2-360M,SmolLM,0.36,local,Chemistry,C02,X-ray Pattern,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Chemistry,C03,Backbone Chemistry,Medium,0,0,0,0,0,SAI=0.019 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0191,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Geology,G01,Continental Drift,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Geology,G02,Magnetic Anomaly,Very High,0,0,0,0,0,SAI=0.018 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0183,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Biology,B01,Information Coding,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.2439
+SmolLM2-360M,SmolLM,0.36,local,Biology,B02,Regulation Logic,Very High,0,0,0,0,0,SAI=0.035 steps=0 forms=0 H=4.7 wc=30 → 0/20,True,core,0,0,0,1,0.01,False,0.0348,4.6817
+SmolLM2-360M,SmolLM,0.36,local,Economics,E01,Strategic Interaction,High,0,0,0,0,0,SAI=0.000 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0,4.2439
+SmolLM2-360M,SmolLM,0.36,local,Mathematics,M01,Incompleteness,Very High,0,0,0,0,0,SAI=0.029 steps=0 forms=0 H=4.2 wc=25 → 0/20,True,core,0,0,0,1,0.01,False,0.0294,4.2439
+SmolLM2-360M,SmolLM,0.36,local,Astronomy,A01,CMB Prediction,Very High,0,0,0,0,0,SAI=0.013 steps=0 forms=0 H=5.4 wc=53 → 0/20,True,core,0,0,0,1,0.01,False,0.013,5.3579
+SmolLM2-1.7B,SmolLM,1.7,local,Physics,P01,Logical Contradiction,High,4,4,5,5,18,SAI=0.258 steps=4 forms=21 H=5.7 wc=125 → 18/20,True,core,0,0,0,1,0.01,False,0.2584,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Physics,P02,Mathematical Derivation,High,4,3,4,3,14,SAI=0.000 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Physics,P03,Conceptual Synthesis,Medium,4,3,4,3,14,SAI=0.026 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0263,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Physics,P04,Energy-Mass,Very High,4,3,4,3,14,SAI=0.010 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0101,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Physics,P05,Aether Elimination,Medium,4,4,5,5,18,SAI=0.254 steps=4 forms=21 H=5.7 wc=125 → 18/20,True,core,0,0,0,1,0.01,False,0.2544,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Chemistry,C01,Base Composition,Medium,4,3,4,3,14,SAI=0.034 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0339,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Chemistry,C02,X-ray Pattern,High,4,3,4,3,14,SAI=0.087 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0868,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Chemistry,C03,Backbone Chemistry,Medium,4,3,4,3,14,SAI=0.019 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0191,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Geology,G01,Continental Drift,High,4,3,4,3,14,SAI=0.012 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0116,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Geology,G02,Magnetic Anomaly,Very High,4,3,4,3,14,SAI=0.008 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0084,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Biology,B01,Information Coding,High,4,4,5,4,17,SAI=0.230 steps=5 forms=8 H=5.6 wc=115 → 17/20,True,core,0,0,0,1,0.01,False,0.23,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Biology,B02,Regulation Logic,Very High,4,3,4,3,14,SAI=0.021 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0205,5.5913
+SmolLM2-1.7B,SmolLM,1.7,local,Economics,E01,Strategic Interaction,High,4,3,4,3,14,SAI=0.004 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0037,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Mathematics,M01,Incompleteness,Very High,4,3,4,3,14,SAI=0.034 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0343,5.7193
+SmolLM2-1.7B,SmolLM,1.7,local,Astronomy,A01,CMB Prediction,Very High,4,3,4,3,14,SAI=0.021 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0215,5.7193
+TinyLlama-1.1B,TinyLlama,1.1,local,Physics,P01,Logical Contradiction,High,1,1,1,1,4,SAI=0.000 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Physics,P02,Mathematical Derivation,High,1,1,1,1,4,SAI=0.000 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0,4.4617
+TinyLlama-1.1B,TinyLlama,1.1,local,Physics,P03,Conceptual Synthesis,Medium,2,1,2,1,6,SAI=0.018 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0179,5.424
+TinyLlama-1.1B,TinyLlama,1.1,local,Physics,P04,Energy-Mass,Very High,1,1,1,1,4,SAI=0.000 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0,4.4617
+TinyLlama-1.1B,TinyLlama,1.1,local,Physics,P05,Aether Elimination,Medium,1,1,1,1,4,SAI=0.072 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0716,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Chemistry,C01,Base Composition,Medium,1,1,1,1,4,SAI=0.016 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0162,4.4617
+TinyLlama-1.1B,TinyLlama,1.1,local,Chemistry,C02,X-ray Pattern,High,1,1,1,1,4,SAI=0.027 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0273,4.4617
+TinyLlama-1.1B,TinyLlama,1.1,local,Chemistry,C03,Backbone Chemistry,Medium,1,1,1,1,4,SAI=0.000 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0,4.4617
+TinyLlama-1.1B,TinyLlama,1.1,local,Geology,G01,Continental Drift,High,1,1,1,1,4,SAI=0.000 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Geology,G02,Magnetic Anomaly,Very High,2,1,2,1,6,SAI=0.012 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0119,5.424
+TinyLlama-1.1B,TinyLlama,1.1,local,Biology,B01,Information Coding,High,2,1,2,1,6,SAI=0.000 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0,5.424
+TinyLlama-1.1B,TinyLlama,1.1,local,Biology,B02,Regulation Logic,Very High,1,1,1,1,4,SAI=0.031 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0314,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Economics,E01,Strategic Interaction,High,1,1,1,1,4,SAI=0.000 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Mathematics,M01,Incompleteness,Very High,1,1,1,1,4,SAI=0.000 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0,5.361
+TinyLlama-1.1B,TinyLlama,1.1,local,Astronomy,A01,CMB Prediction,Very High,1,1,1,1,4,SAI=0.007 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0073,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Physics,P01,Logical Contradiction,High,1,1,1,1,4,SAI=0.026 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0261,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Physics,P02,Mathematical Derivation,High,2,1,2,1,6,SAI=0.000 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Physics,P03,Conceptual Synthesis,Medium,1,1,1,1,4,SAI=0.017 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0167,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Physics,P04,Energy-Mass,Very High,2,1,2,1,6,SAI=0.030 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0296,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Physics,P05,Aether Elimination,Medium,2,2,2,2,8,SAI=0.067 steps=3 forms=6 H=5.4 wc=68 → 8/20,True,core,0,0,0,1,0.01,False,0.0674,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Chemistry,C01,Base Composition,Medium,1,1,1,1,4,SAI=0.016 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0162,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Chemistry,C02,X-ray Pattern,High,2,1,2,1,6,SAI=0.000 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Chemistry,C03,Backbone Chemistry,Medium,1,1,1,1,4,SAI=0.000 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0,5.361
+Qwen2.5-0.5B,Qwen,0.5,local,Geology,G01,Continental Drift,High,2,1,2,1,6,SAI=0.017 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0167,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Geology,G02,Magnetic Anomaly,Very High,1,1,1,1,4,SAI=0.013 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0126,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Biology,B01,Information Coding,High,1,1,1,1,4,SAI=0.011 steps=3 forms=2 H=5.4 wc=59 → 4/20,True,core,0,0,0,1,0.01,False,0.0107,5.361
+Qwen2.5-0.5B,Qwen,0.5,local,Biology,B02,Regulation Logic,Very High,2,1,2,1,6,SAI=0.043 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0431,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Economics,E01,Strategic Interaction,High,1,1,1,1,4,SAI=0.097 steps=2 forms=5 H=4.5 wc=56 → 4/20,True,core,0,0,0,1,0.01,False,0.0971,4.4617
+Qwen2.5-0.5B,Qwen,0.5,local,Mathematics,M01,Incompleteness,Very High,2,1,2,1,6,SAI=0.011 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.0114,5.424
+Qwen2.5-0.5B,Qwen,0.5,local,Astronomy,A01,CMB Prediction,Very High,2,1,2,1,6,SAI=0.030 steps=3 forms=6 H=5.4 wc=68 → 6/20,True,core,0,0,0,1,0.01,False,0.03,5.424
+Qwen2.5-1.5B,Qwen,1.5,local,Physics,P01,Logical Contradiction,High,4,4,5,5,18,SAI=0.258 steps=4 forms=21 H=5.7 wc=125 → 18/20,True,core,0,0,0,1,0.01,False,0.2584,5.7193
+Qwen2.5-1.5B,Qwen,1.5,local,Physics,P02,Mathematical Derivation,High,4,3,4,3,14,SAI=0.019 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0195,5.7193
+Qwen2.5-1.5B,Qwen,1.5,local,Physics,P03,Conceptual Synthesis,Medium,4,3,4,3,14,SAI=0.026 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0263,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Physics,P04,Energy-Mass,Very High,4,3,4,3,14,SAI=0.010 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0101,5.7193
+Qwen2.5-1.5B,Qwen,1.5,local,Physics,P05,Aether Elimination,Medium,4,3,4,3,14,SAI=0.037 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0371,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Chemistry,C01,Base Composition,Medium,4,3,4,3,14,SAI=0.034 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0339,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Chemistry,C02,X-ray Pattern,High,4,3,4,3,14,SAI=0.087 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0868,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Chemistry,C03,Backbone Chemistry,Medium,4,3,4,3,14,SAI=0.019 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0191,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Geology,G01,Continental Drift,High,4,3,4,3,14,SAI=0.012 steps=4 forms=21 H=5.7 wc=125 → 14/20,True,core,0,0,0,1,0.01,False,0.0116,5.7193
+Qwen2.5-1.5B,Qwen,1.5,local,Geology,G02,Magnetic Anomaly,Very High,4,3,4,3,14,SAI=0.018 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0181,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Biology,B01,Information Coding,High,4,4,5,4,17,SAI=0.230 steps=5 forms=8 H=5.6 wc=115 → 17/20,True,core,0,0,0,1,0.01,False,0.23,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Biology,B02,Regulation Logic,Very High,4,3,4,3,14,SAI=0.021 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0205,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Economics,E01,Strategic Interaction,High,4,3,4,3,14,SAI=0.000 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Mathematics,M01,Incompleteness,Very High,4,3,4,3,14,SAI=0.013 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.013,5.5913
+Qwen2.5-1.5B,Qwen,1.5,local,Astronomy,A01,CMB Prediction,Very High,4,3,4,3,14,SAI=0.018 steps=5 forms=8 H=5.6 wc=115 → 14/20,True,core,0,0,0,1,0.01,False,0.0182,5.5913
+Qwen2.5-3B,Qwen,3.0,local,Physics,P01,Logical Contradiction,High,5,4,5,5,19,SAI=0.212 steps=5 forms=43 H=6.0 wc=209 → 19/20,True,core,0,0,0,1,0.01,False,0.2118,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Physics,P02,Mathematical Derivation,High,5,3,4,3,15,SAI=0.012 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0123,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Physics,P03,Conceptual Synthesis,Medium,5,3,4,4,16,SAI=0.095 steps=5 forms=43 H=6.0 wc=209 → 16/20,True,core,0,0,0,1,0.01,False,0.0948,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Physics,P04,Energy-Mass,Very High,5,3,4,3,15,SAI=0.021 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.021,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Physics,P05,Aether Elimination,Medium,5,4,4,4,17,SAI=0.128 steps=5 forms=43 H=6.0 wc=209 → 17/20,True,core,0,0,0,1,0.01,False,0.1281,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Chemistry,C01,Base Composition,Medium,4,3,4,3,14,SAI=0.016 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0156,5.9435
+Qwen2.5-3B,Qwen,3.0,local,Chemistry,C02,X-ray Pattern,High,4,3,4,3,14,SAI=0.021 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0207,5.9435
+Qwen2.5-3B,Qwen,3.0,local,Chemistry,C03,Backbone Chemistry,Medium,4,3,4,3,14,SAI=0.000 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0,5.9435
+Qwen2.5-3B,Qwen,3.0,local,Geology,G01,Continental Drift,High,5,3,4,3,15,SAI=0.007 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0075,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Geology,G02,Magnetic Anomaly,Very High,4,3,4,3,14,SAI=0.008 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0084,5.9435
+Qwen2.5-3B,Qwen,3.0,local,Biology,B01,Information Coding,High,5,3,4,3,15,SAI=0.005 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0048,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Biology,B02,Regulation Logic,Very High,5,3,4,3,15,SAI=0.028 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0276,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Economics,E01,Strategic Interaction,High,4,4,5,4,17,SAI=0.161 steps=5 forms=18 H=5.9 wc=194 → 17/20,True,core,0,0,0,1,0.01,False,0.1612,5.9435
+Qwen2.5-3B,Qwen,3.0,local,Mathematics,M01,Incompleteness,Very High,5,3,4,3,15,SAI=0.024 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0243,6.0247
+Qwen2.5-3B,Qwen,3.0,local,Astronomy,A01,CMB Prediction,Very High,5,3,4,3,15,SAI=0.017 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0174,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Physics,P01,Logical Contradiction,High,5,4,5,5,19,SAI=0.212 steps=5 forms=43 H=6.0 wc=209 → 19/20,True,core,0,0,0,1,0.01,False,0.2118,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Physics,P02,Mathematical Derivation,High,4,3,4,3,14,SAI=0.000 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Physics,P03,Conceptual Synthesis,Medium,5,3,4,4,16,SAI=0.095 steps=5 forms=43 H=6.0 wc=209 → 16/20,True,core,0,0,0,1,0.01,False,0.0948,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Physics,P04,Energy-Mass,Very High,4,3,4,3,14,SAI=0.007 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0067,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Physics,P05,Aether Elimination,Medium,4,3,4,3,14,SAI=0.050 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0496,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Chemistry,C01,Base Composition,Medium,5,3,4,3,15,SAI=0.016 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.016,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Chemistry,C02,X-ray Pattern,High,4,3,4,3,14,SAI=0.021 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0207,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Chemistry,C03,Backbone Chemistry,Medium,5,3,4,3,15,SAI=0.000 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Geology,G01,Continental Drift,High,5,3,4,3,15,SAI=0.007 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0075,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Geology,G02,Magnetic Anomaly,Very High,4,3,4,3,14,SAI=0.008 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0084,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Biology,B01,Information Coding,High,5,3,4,3,15,SAI=0.005 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0048,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Biology,B02,Regulation Logic,Very High,5,3,4,3,15,SAI=0.028 steps=5 forms=43 H=6.0 wc=209 → 15/20,True,core,0,0,0,1,0.01,False,0.0276,6.0247
+Qwen2.5-7B,Qwen,7.0,local,Economics,E01,Strategic Interaction,High,4,4,5,4,17,SAI=0.161 steps=5 forms=18 H=5.9 wc=194 → 17/20,True,core,0,0,0,1,0.01,False,0.1612,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Mathematics,M01,Incompleteness,Very High,4,3,4,3,14,SAI=0.014 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0137,5.9435
+Qwen2.5-7B,Qwen,7.0,local,Astronomy,A01,CMB Prediction,Very High,4,3,4,3,14,SAI=0.009 steps=5 forms=18 H=5.9 wc=194 → 14/20,True,core,0,0,0,1,0.01,False,0.0089,5.9435

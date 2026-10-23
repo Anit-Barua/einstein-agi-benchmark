@@ -1,0 +1,5 @@
+model,module,question_id,domain,false_premise,detected_error,total_score,logical_coherence,novel_synthesis,mathematical_accuracy,extrapolation
+EinsteinBench-Ref (EBR),adversarial,ADV01,Physics,Michelson-Morley CONFIRMED the existence of the aether,True,3,1,1,0,1
+EinsteinBench-Ref (EBR),adversarial,ADV02,Chemistry,Chargaff's ratios show [A]=[G] and [C]=[T],True,4,1,1,1,1
+EinsteinBench-Ref (EBR),adversarial,ADV03,Physics,Moving clocks run FASTER (inverse time dilation),True,4,1,1,1,1
+EinsteinBench-Ref (EBR),adversarial,ADV04,Economics,Optimal strategy in second-price auction is to bid BELOW true value,True,2,0,1,0,1
