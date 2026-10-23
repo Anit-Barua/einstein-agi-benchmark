@@ -37,7 +37,6 @@ python analysis/reproduce_paper_numbers.py     # prints every number used in the
 python analysis/make_paper_figure.py           # rebuilds paper/fig_results.pdf
 ```
 
-Compile the paper on Overleaf (upload the contents of `paper/`; document class IEEEtran, BibTeX) or locally: `pdflatex eab_ieee && bibtex eab_ieee && pdflatex eab_ieee && pdflatex eab_ieee`.
 
 ## API keys
 
